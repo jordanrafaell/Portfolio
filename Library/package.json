@@ -1,0 +1,22 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanrafaell/Portfolio2.git"
+  },
+  "author": "Jordan Rafael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanrafaell/Portfolio2/issues"
+  },
+  "homepage": "https://github.com/jordanrafaell/Portfolio2#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}

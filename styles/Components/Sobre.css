@@ -1,0 +1,254 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30rem;
+    color: var(--cor-branco);
+    position: relative;
+}
+
+.container_sobre {
+    display: flex;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 17rem;
+    overflow: hidden;
+}
+
+
+
+.container_sobre  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    font-size: 60px;
+    color: #710af7;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+        #FF2D95 0px 0px 30px, #992dff 0px 0px 40px, #FF2D95 0px 0px 50px,
+        #FF2D95 0px 0px 75px, 9px -39px 0px rgba(88, 33, 206, 0), 9px -39px 0px rgba(88, 33, 206, 0);
+    color: #FFFFFF;
+    font-weight: bold;
+    color: rgb(89, 0, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.container_sobre  p{
+    display: flex;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 30px;
+    text-shadow: #a200ff 2px 0px 5px;
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+
+
+
+
+
+@media (max-width: 430px) and (min-width: 375px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 30rem;
+        color: var(--cor-branco);
+        position: relative;
+    }
+    
+    .container_sobre {
+        display: flex;
+        width: 100%;
+        max-width: 750px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        bottom: 17rem;
+        overflow: hidden;
+    }
+    
+    
+    
+    .container_sobre  h1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        font-size: 45px;
+        color: #710af7;
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+            #FF2D95 0px 0px 30px, #992dff 0px 0px 40px, #FF2D95 0px 0px 50px,
+            #FF2D95 0px 0px 75px, 9px -39px 0px rgba(88, 33, 206, 0), 9px -39px 0px rgba(88, 33, 206, 0);
+        color: #FFFFFF;
+        font-weight: bold;
+        color: rgb(89, 0, 255);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container_sobre  p{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        font-size: 25px;
+        text-shadow: #a200ff 2px 0px 5px;
+        font-weight: bolder;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 330px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 30rem;
+        color: var(--cor-branco);
+        position: relative;
+    }
+    
+    .container_sobre {
+        display: flex;
+        width: 100%;
+        max-width: 750px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        bottom: 17rem;
+        overflow: hidden;
+    }
+    
+    
+    
+    .container_sobre  h1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        font-size: 45px;
+        color: #710af7;
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+            #FF2D95 0px 0px 30px, #992dff 0px 0px 40px, #FF2D95 0px 0px 50px,
+            #FF2D95 0px 0px 75px, 9px -39px 0px rgba(88, 33, 206, 0), 9px -39px 0px rgba(88, 33, 206, 0);
+        color: #FFFFFF;
+        font-weight: bold;
+        color: rgb(89, 0, 255);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container_sobre  p{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        font-size: 20px;
+        text-shadow: #a200ff 2px 0px 5px;
+        font-weight: bolder;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 320px) and (min-width: 100px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 30rem;
+        color: var(--cor-branco);
+        position: relative;
+    }
+    
+    .container_sobre {
+        display: flex;
+        width: 100%;
+        max-width: 750px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        bottom: 17rem;
+        overflow: hidden;
+    }
+    
+    
+    
+    .container_sobre  h1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        min-height: 150px;
+        font-size: 30px;
+        color: #710af7;
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px,
+            #FF2D95 0px 0px 30px, #992dff 0px 0px 40px, #FF2D95 0px 0px 50px,
+            #FF2D95 0px 0px 75px, 9px -39px 0px rgba(88, 33, 206, 0), 9px -39px 0px rgba(88, 33, 206, 0);
+        color: #FFFFFF;
+        font-weight: bold;
+        color: rgb(89, 0, 255);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container_sobre  p{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        font-size: 17px;
+        text-shadow: #a200ff 2px 0px 5px;
+        font-weight: bolder;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,42 @@
+@import '../styles/Components/Globais.css';
+@import '../styles/Components/Home.css';
+@import '../styles/Components/Projetos.css';
+@import '../styles/Components/Sobre.css';
+@import '../styles/Components/Habilidades.css';
+@import '../styles/Components/Formulario.css';
+@import '../styles/Components/Fundo.css';
+@import '../styles/Components/Menu.css';
+
+
+:root {
+    /* Cores de texto */
+    --cor-vermelho: red;
+    --cor-roxo: rgb(60, 0, 255);
+    --cor-preto: black;
+    --cor-branco: white;
+    --cor-azul: rgb(0, 38, 255);
+    --cor-cinza-escuro: rgb(103, 103, 103);
+    --cor-cinza: gray;
+
+
+
+
+    
+    /* Cor de fundo */
+    /* --cor-fundo-home: {
+        background: #000000;
+        background: -webkit-repeating-linear-gradient(to top, #000000 0%, #6A06C2 100%);
+        background: -moz-repeating-linear-gradient(to top, #000000 0%, #6A06C2 100%);
+        background: repeating-linear-gradient(to top, #000000 0%, #6A06C2 100%);
+        ;
+    } */
+
+    /* Cor de bordas */
+    /* --cor-bordas: {
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+        ;
+    } */
+
+}

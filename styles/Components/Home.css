@@ -1,0 +1,345 @@
+.home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10rem;
+    overflow: hidden;
+}
+
+.container_home{
+    width: 100%;
+    height: 100%;
+}
+
+.home_text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: var(--cor-branco);
+}
+
+.home_text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.home_text h2{
+    text-shadow:
+    0 0 1px rgb(255, 255, 255),
+    0 0 1em rgb(255, 255, 255);
+  font:
+    1.5em Georgia,
+    "Bitstream Charter",
+    "URW Bookman L",
+    "Century Schoolbook L",
+    serif;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.home_text h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.img-fluid{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    width: 370px;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(0 0 2px rgb(255, 255, 255)); 
+    filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    cursor: pointer;
+}
+.img-fluid:hover{
+    -webkit-filter: drop-shadow(0 0 20px rgb(255, 0, 0)); 
+    filter: drop-shadow(0 0 10px rgb(255, 0, 0));
+}
+
+
+@media (max-width: 2685px) and (min-width: 1024px){
+
+    .home_text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: var(--cor-branco);
+    }
+    
+    .home_text h1{
+        font-size: 80px;
+        margin-bottom: 10px;
+    }
+    .home_text h2{
+        text-shadow:
+        0 0 1px rgb(255, 255, 255),
+        0 0 1em rgb(255, 255, 255);
+      font:
+        1.5em Georgia,
+        "Bitstream Charter",
+        "URW Bookman L",
+        "Century Schoolbook L",
+        serif;
+        font-weight: bolder;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .home_text h3{
+        font-size: 40px;
+    }
+
+    .container_home{
+        height: auto;
+    }
+    .img-fluid{
+        display: flex;
+        border: none;
+        position: relative;
+        bottom: 60px;
+        min-width: 600px;
+        height: auto;
+        margin: 0 auto;
+        -webkit-filter: drop-shadow(0 0 2px rgb(255, 255, 255)); 
+        filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px){
+
+    .container_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .home_text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: var(--cor-branco);
+    }
+    
+    .home_text h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .home_text h2{
+        text-shadow:
+        0 0 1px rgb(255, 255, 255),
+        0 0 1em rgb(255, 255, 255);
+      font:
+        1.5em Georgia,
+        "Bitstream Charter",
+        "URW Bookman L",
+        "Century Schoolbook L",
+        serif;
+        font-weight: bolder;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .home_text h3{
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+
+    .img-fluid{
+        display: flex;
+        border: none;
+        position: relative;
+        bottom: 60px;
+        min-width: 100px;
+        height: auto;
+        margin: 0 auto;
+        -webkit-filter: drop-shadow(0 0 2px rgb(255, 255, 255)); 
+        filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 834px){
+    
+    .container_home{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 6.5rem;
+    }
+
+    .home_text h1{
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .home_text h2{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .home_text h3{
+        display: none;
+    }
+
+    .descricao{
+        display: none;
+    }
+
+    .img-fluid{
+        margin-top: 2rem;
+        width: 400px;
+    }
+}
+
+@media (max-width: 834px) and (min-width: 770px) {
+    .container_home{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 10rem;
+    }
+
+    .home_text h1{
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .home_text h2{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .home_text h3{
+        display: none;
+    }
+
+    .descricao{
+        display: none;
+    }
+
+    .img-fluid{
+        margin-top: 4rem;
+        width: 400px;
+    }
+}
+
+@media (max-width: 770px) and (min-width: 430px){
+    .container_home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 5rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home_text{
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .home_text h1{
+        width: 100%;
+        font-size: 60px;
+    }
+    .home_text h2{
+        font-size: 50px;
+    }
+
+    .home_text h3{
+        display: none;
+    }
+    .descricao{
+        display: none;
+    }
+
+    .img-fluid{
+        display: flex;
+        border: none;
+        position: relative;
+        bottom: 6rem;
+        width: 400px;
+        height: 100%;
+        margin: 0 auto;
+        -webkit-filter: drop-shadow(0 0 2px rgb(255, 255, 255)); 
+        filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    }
+
+}
+
+@media (max-width: 430px) and (min-width: 320px){
+
+    .container_home{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 5rem;
+    }
+    .home_text {
+        position: relative;
+        bottom: 7rem;
+    }
+    .home_text h1{
+        font-size: 40px;
+    }
+
+    .home_text h2{
+        font-size: 30px;
+    }
+
+    .home_text h3{
+        display: none;
+    }
+    
+    .descricao{
+        display: none;
+    }
+
+    .img-fluid{
+        display: flex;
+        border: none;
+        position: relative;
+        bottom: 8rem;
+        min-width: 100px;
+        height: auto;
+        margin: 0 auto;
+        -webkit-filter: drop-shadow(0 0 2px rgb(255, 255, 255)); 
+        filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    }
+
+
+}
+
+@media (max-width: 320px){
+    .container_home{
+        width: 100%;
+        height: 260px;
+        position: relative;
+        top: 3rem;
+    }
+
+    .home_text h1{
+        font-size: 35px;
+    }
+
+    .home_text h2{
+        font-size: 30px;
+    }
+
+    .home_text h3{
+        display: none;
+    }
+
+    .img-fluid{
+        width: 200px;
+    }
+}

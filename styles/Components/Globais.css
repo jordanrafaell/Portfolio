@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #000000;
+    background: -webkit-repeating-linear-gradient(to top, #000000 0%, #454545 100%);
+    background: -moz-repeating-linear-gradient(to top, #000000 0%, #444444 100%);
+    background: repeating-linear-gradient(to top, #000000 0%, #4f4f4f 100%);
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    position: relative;
+}
+
+.container .hidden {
+    display: none;
+}
+
+.container.home {
+    display: block;
+}
+
+@media (max-width: 299px) and (min-width: 5px){
+    body{
+        display: none;
+    }
+}
