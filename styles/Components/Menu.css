@@ -1138,7 +1138,7 @@
     }
 }
 
-@media (max-width: 320px) and (min-width: 100px){
+@media (max-width: 330px) and (min-width: 100px){
     .menu_nav{
         display: none;
     }
