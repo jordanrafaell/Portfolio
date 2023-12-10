@@ -190,7 +190,7 @@
     }
 }
 
-@media (max-width: 320px) and (min-width: 100px){
+@media (max-width: 330px) and (min-width: 100px){
     .sobre{
         display: flex;
         flex-direction: column;

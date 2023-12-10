@@ -26,6 +26,10 @@ div {
     position: relative;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container .hidden {
     display: none;
 }

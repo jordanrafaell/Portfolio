@@ -112,6 +112,7 @@
 }
 
 
+
 /*estudo no span e js git na list li*/
 
 
@@ -175,7 +176,7 @@
     .list_skills li {
         display: flex;
         width: 100%;
-        max-width: 220px;
+        max-width: 180px;
         height: auto;
         min-height: 250px;
         flex-direction: column;
