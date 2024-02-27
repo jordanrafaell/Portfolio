@@ -66,21 +66,17 @@ document.addEventListener("DOMContentLoaded", function () {
     toggleSections(currentSectionId);
   });
 
-
-  
   //Carroseul
 
   if (window.innerWidth < 820) {
     // Inicializar o carrossel automático
     var carouselInterval = setInterval(function () {
-      $('#projetosCarousel').carousel('next');
+      $("#projetosCarousel").carousel("next");
     }, 3000);
 
     // Parar o carrossel automático quando o usuário interagir com ele
-    $('#projetosCarousel').on('slid.bs.carousel', function () {
+    $("#projetosCarousel").on("slid.bs.carousel", function () {
       clearInterval(carouselInterval);
     });
   }
-  
- 
 });
