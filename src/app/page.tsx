@@ -1,12 +1,13 @@
 'use client'
-import Header from '@/components/shared/header';
+
+import Banner from "@/components/home/banner"
 
 // importações de componentes de paginas
 export default function Home() {
   return (
     <>
-    <Header />
-    <main className="flex-grow"> 
+    <main className="flex-grow w-full h-auto "> 
+      <Banner />
     </main>
     </>
   )
