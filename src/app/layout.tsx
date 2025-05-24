@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './styles/global.css';
+import Header from '@/components/shared/header';
 
 export const metadata: Metadata = {
   title: 'Dev Jordan',
@@ -29,6 +30,8 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <Header />
+        <div className="h-[80px]"></div>
         {children}
       </body>
     </html>
