@@ -8,7 +8,7 @@ export default function ThemeToggle() {
 
   return (
     <button
-      className="relative w-10 h-10 overflow-hidden border border-border rounded-md flex items-center justify-center"
+      className=" theme border relative w-10 h-10 overflow-hidden rounded-md flex items-center justify-center"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
       <AnimatePresence mode="wait" initial={false}>
